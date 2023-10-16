@@ -48,8 +48,9 @@ body * {
   ); /*em vez da cor, coloca text-color por causa do :root acima */
 }
 #container {
-  width: 360px; /*apenas a largura*/
+  width: 100%; /*apenas a largura*/
   /*não precisa colocar altura pq conforme vai colocando o conteudo, ele vai ficar no tamanho certo*/
+  max-width: 588px; /*maximo de largura*/
   margin: 56px auto 0px;
   /* top 56px, auto nas laterais e 0px embaixo.
   obs: mesmo no automatico, a caixa nao se alinha encima ou embaixo 
